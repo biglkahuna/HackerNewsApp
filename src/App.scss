@@ -1,0 +1,128 @@
+body {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .App {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Header{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .story {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+        .story-title {
+            margin-bottom: 4px;
+            a:link,
+            a:visited {
+            font-size: 18px;
+            color: #222222;
+            text-decoration: none;
+            }
+        
+            a:hover,
+            a:active {
+            text-decoration: none;
+            }
+        }
+    }
+  
+  
+  .story .story-meta-info {
+    text-align: left;
+    color: #878A8C;
+  }
+  
+  .comment-meta-info {
+    text-align: right;
+    color: #878A8C;
+    font-size: 0.7em;
+  }
+  
+  .story .story-meta-info > span, .comment-meta-info > span {
+    padding-right: 15px;
+  }
+  
+  .story .story-meta-info > span > label, .comment-meta-info > span > label {
+    /* font-weight: bold; */
+    padding-left: 5px;
+  }
+  .comments-btn {
+    cursor: pointer;
+    /* font-weight: bold; */
+  }
+  .new_comment {
+		width: 100%;
+		height: auto;
+		padding: 20px 0;
+		border-top: 1px solid lighten(#e6e6e6, 10%);
+  }
+
+  .comment_body {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 75px);
+    min-height: 65px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: #555;
+    background-color: #FFF;
+    // border-bottom: 2px solid #f2f2f2;
+  }
+  
+  .comment {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    border-top: 1px solid #e6e6e6;
+  }
+  // .comment:nth-child(even) {
+  //   background-color: #dddddd61;
+  // }
+  
